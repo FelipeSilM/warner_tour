@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mange</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Warner Expirience</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex pt-2 pt-md-0">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-warner" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Warner
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#evento" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            O evento
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#o-que-esperar" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossas atrações
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-warner">
+            <div id="carousel" class="carousel slide"data-bs-ride="carousel">
+                <div class="carousel-inner" >
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="https://www.warnerbros.com.br/assets/experiences/tours/hollywood-banner.jpg" class="d-block w-100" alt="Foto do espaço interno do restaurante">
+                        <div class="carousel-caption">
+                            <h5 class="text-md-center fs-3">Warner Bros. Studio Tour SP</h5>
+                            <h3 class="text-md-center fs-1 d-none d-md-block">Uma Tour pelo mundo da Warner</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="https://www.warnerbros.com.br/assets/experiences/tours/london-banner.jpg" class="d-block w-100" alt="Duas taças de vinho">
+                        <div class="carousel-caption">
+                            <h5 class="text-md-center fs-3">Warner Bros. Studio Tour SP</h5>
+                            <h3 class="text-md-center fs-1 d-none d-md-block">Uma Tour pelo mundo da Warner</h3>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                </div>
+                
+                <div class="py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="https://saopaulosecreto.com/wp-content/uploads/2023/08/impre_wb100_2-1-1-1024x576.jpeg" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            </div>
+                            <div class="col-md-7 mt-3 mt-md-0">
+                                <h2 class="section-title">Sobre o <span class="text-colored">Warner Bros.</span></h2>
+                                <p>A Warner Bros. Entertainment. é líder na indústria cinematográfica americana e é um dos "Big Five" grandes estúdios de cinema americanos, bem como membro da Motion Picture Association.</p>
+                                <p>Para comemorar os 100 anos do estúdio foi inaugurada, por tempo limitado, uma experiência imersiva no shopping eldorado de São Paulo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="evento" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Alguma de nossas salas</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://saopaulosecreto.com/wp-content/uploads/2023/08/casa-warner-2-1024x576.jpg" class="mb-2 d-block w-100 rounded" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            Estúdio de Animação
+                        </h3>
+                        <p>
+                            É uma verdadeira homenagem aos Looney Tunes. Os visitantes podem mergulhar no mundo de Pernalonga e Patolino, além de criar suas próprias animações com personagens icônicos.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://saopaulosecreto.com/wp-content/uploads/2023/08/impre_wb100_1-1-1-1024x576.jpeg" class="mb-2 d-block w-100 rounded" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            Adereços (Props)
+                        </h3>
+                        <p>
+                            Onde os visitantes podem admirar objetos cenográficos usados em filmes e séries icônicas. Por exemplo, o sofá de “Friends”, que testemunhou tantos momentos memoráveis e se tornou um ícone da cultura pop.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://saopaulosecreto.com/wp-content/uploads/2023/08/casa-warner-1-1024x576.jpg" class="mb-2 d-block w-100 rounded" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            Figurino
+                        </h3>
+                        <p>
+                            Figurinos icônicos que vestiram personagens memoráveis ao longo dos últimos 100 anos são destaque na exposição. Esta seção contextualiza a importância de cada traje e oferece aos visitantes uma visão única do mundo do entretenimento.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="o-que-esperar">
+            <div class="container">
+                <div class="row py-3">
+                    <h2 class="section-title text-center">
+                        Alguma das nossas <span class="text-colored">atrações</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-12">
+                        <nav class="nav nav-pills flex-row justify-content-between nav-atracoes py-3">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#filmes" class="nav-link fw-bold text-start text-colored flex-grow-1 active"> Filmes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#series" class="nav-link fw-bold text-start text-colored flex-grow-1"> Séries</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#animacao" class="nav-link fw-bold text-start text-colored flex-grow-1"> Animações</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#jogos" class="nav-link fw-bold text-start text-colored flex-grow-1"> Jogos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-12">
+                        <div class="tab-content">
+                            <div id="filmes" class="tab-pane active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GYUjdLgBiJp5otAEAAAAJ/tileburnedin?v=5665c62690344053bef69bdddf355ac8&size=320x320&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:hbo:territory:argentina&language=pt-br" 
+                                        class="d-block w-100" alt="Duna, filme">
+                                        <h5 class="text-coloredfw-bold mt-2">Duna</h5>
+                                        <p>
+                                            Dune conta a mítica e emocionante jornada de Paul Atreides, um jovem prodígio com um futuro grandioso e envolto em mistério que precisa viajar para o planeta mais perigoso do universo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GYiDbSAmIpMNvYAEAAAAI/tileburnedin?v=fd64f8006c8d862fc2a5e14d2c146ffa&size=320x320&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:dc-comics&language=pt-br" 
+                                        class="d-block w-100" alt="Batman, filme">
+                                        <h5 class="text-coloredfw-bold mt-2">Batman</h5>
+                                        <p>
+                                            Dois anos patrulhando as ruas como Batman e provocando medo nos corações dos criminosos lançaram Bruce Wayne nas sombras de Gotham City.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GYEq4eApHYpA4cwEAAAAC/tileburnedin?v=bce964e2e357a916ca69afbcea5984cc&size=320x320&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:black-on-all-sides&language=pt-br" 
+                                        class="d-block w-100" alt="tenet">
+                                        <h5 class="text-coloredfw-bold mt-2">TENET</h5>
+                                        <p>
+                                            Lutando pela sobrevivência da humanidade, o Protagonista viaja pelo mundo da espionagem internacional em uma missão que se desdobrará em algo que vai além da noção conhecida de tempo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GYY7NkAImuJzDwgEAAAAL/tileburnedin?v=da290beffae6f62c7cfbf6533204720b&size=320x320&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:hbo:territory:argentina&language=pt-br" 
+                                        class="d-block w-100" alt="Harry potter e a pedra filosofal">
+                                        <h5 class="text-coloredfw-bold mt-2">Harry potter e a pedra filosofal</h5>
+                                        <p>
+                                            Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursley. Em seu aniversário de 11 anos ele recebe uma carta que mudará sua vida: um convite para ingressar em Hogwarts.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GXrH2uwMqh8PCwwEAAAEJ/tileburnedin?v=ebd41e959d88cd2b883fe0d58f4162ca&size=320x320&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:not-in-a-hub&language=pt-br" 
+                                        class="d-block w-100" alt="A nova cinderela">
+                                        <h5 class="text-coloredfw-bold mt-2">A nova cinderela</h5>
+                                        <p>
+                                            Substitua um telefone celular por um sapato de cristal, um carro conversível por uma abóbora com duas portas e o subúrbio de Los Angeles por um reino muito, muito distante e o que você tem?
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GXjyOBAdcLo7CZgEAABEc/tileburnedin?v=f4b521a639b9da17734b2ee30ffc1683&size=320x320&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:dc-comics&language=pt-br" 
+                                        class="d-block w-100" alt="V de vingança">
+                                        <h5 class="text-coloredfw-bold mt-2">V de vingança</h5>
+                                        <p>
+                                            V de Vingança conta a história de uma pacata jovem chamada Evey, que é resgatada de uma situação de vida e morte por um homem mascarado, conhecido apenas como "V".
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="series" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GX-EdhwKKy5rDwwEAAACK/tileburnedin?v=c8317424ea22b483af0c34f889853457&size=400x225&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:max-originals:territory:adria&language=pt-br" 
+                                        class="d-block w-100" alt="Gossip girls">
+                                        <h5 class="text-coloredfw-bold mt-2">Gossip Girl</h5>
+                                        <p>
+                                            Nesta série sobre as vidas dos adolescentes da elite de Manhattan, não é fácil acompanhar o ritmo das brigas, crises de ciúme e confusões, mas esse é o maior talento de Gossip Girl, a blogueira que sempre sabe de tudo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GXXAcxwJukqnCVgEAAAEG/tileburnedin?v=62509447dcd4a0348ad83c17ba943d2d&size=400x225&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:bhm2021&language=pt-br" 
+                                        class="d-block w-100" alt="Watchmen">
+                                        <h5 class="text-coloredfw-bold mt-2">Watchmen</h5>
+                                        <p>
+                                            HBO apresenta uma visão atualizada da graphic novel de Alan Moore sobre uma sociedade polarizada em seu repúdio a justiceiros mascarados.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GXdbR_gOXWJuAuwEAACVH/tileburnedin?v=6a409f09891f75549fdb8d07dc969b63&size=400x225&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:not-in-a-hub&language=pt-br" 
+                                        class="d-block w-100" alt="Friends">
+                                        <h5 class="text-coloredfw-bold mt-2">Friends</h5>
+                                        <p>
+                                            Uma das séries de maior sucesso da TV, ""Friends"" é uma comédia inteligente e divertida sobre um grupo de amigos que mora em Nova York.
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div id="animacao" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GXebONASZ8sPCwwEAAD_C/tileburnedin?v=cd4c241e4db64ebb20450d2601f4dddb&size=400x225&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:cartoon-network:territory:adria&language=pt-br" 
+                                        class="d-block w-100" alt="Scooby-Doo">
+                                        <h5 class="text-coloredfw-bold mt-2">Scooby-Doo</h5>
+                                        <p>
+                                            O cão mais adorável e solucionador de mistérios do mundo, junto com Salsicha e o resto da turma, protagoniza uma coleção assustadora e divertida de desenhos animados clássicos estrelados por Scooby-Doo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GYKgSTwmmUwvDwgEAAAAP/tileburnedin?v=003af924549e14bc73746a4ce339ea11&size=400x225&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:cartoon-network&language=pt-br" 
+                                        class="d-block w-100" alt="baby looney tunes">
+                                        <h5 class="text-coloredfw-bold mt-2">Baby looney tunes</h5>
+                                        <p>
+                                            Baby Looney Tunes apresenta os personagens dos desenhos animados mais amados do mundo como bebês precoces, descobrindo o mundo um passo de cada vez!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GXrHxGQ3L2YmBSgEAAADC/tileburnedin?v=b95f70c9a4706767f260818a183d1811&size=400x225&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:hbo:territory:argentina&language=pt-br" 
+                                        class="d-block w-100" alt="A noiva cadáver">
+                                        <h5 class="text-coloredfw-bold mt-2">A noiva cadáver</h5>
+                                        <p>
+                                            Passado num vilarejo europeu no século 19, É uma história de otimismo, romance e de uma alegre vida após a morte, contada no clássico estilo de Tim Burton.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GYGYm2gD5HnqQqwEAAABB/tileburnedin?v=528340063f78c7d62ca4ed001cf88f60&size=400x225&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:cartoon-network&language=pt-br" 
+                                        class="d-block w-100" alt="O show de tom & jerry">
+                                        <h5 class="text-coloredfw-bold mt-2">O show de tom & jerry</h5>
+                                        <p>
+                                            Os rivais gato e rato mais famosos do mundo estão de volta. A nova série revisita a louca comédia pastelão e as batalhas intermináveis que fizeram de Tom e Jerry dois dos personagens mais queridos de todos os tempos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://art-gallery-latam.api.hbo.com/images/GXrHplwuS-sPCwwEAAAAb/tileburnedin?v=387d0d754ec09150c50b8713e497f967&size=400x225&compression=medium&protection=false&scaleDownToFit=false&productCode=hboMax&overlayImage=urn:warnermedia:brand:not-in-a-hub&language=pt-br" 
+                                        class="d-block w-100" alt="O gigante de ferro">
+                                        <h5 class="text-coloredfw-bold mt-2">O gigante de ferro</h5>
+                                        <p>
+                                            Algo enorme está no horizonte. Hogarth Hughes há pouco salvou um robô que caiu das estrela na Terra.
+                                        </p>
+                                    </div>        
+                                </div>
+                            </div>
+                            <div id="jogos" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/208650/header.jpg?t=1681938976" class="d-block w-100" alt="Batman Arkham knight">
+                                        <h5 class="text-coloredfw-bold mt-2">Batman Arkham knight</h5>
+                                        <p>
+                                            Batman™: Arkham Knight é a conclusão épica da trilogia Arkham da Rocksteady Studios. Desenvolvido exclusivamente para plataformas de última geração, Batman™: Arkham Knight apresenta o design exclusivo da Rocksteady para o Batmóvel
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg?t=1680647016" class="d-block w-100" alt="Hogwarts Legacy">
+                                        <h5 class="text-coloredfw-bold mt-2">Hogwarts Legacy</h5>
+                                        <p>
+                                            Hogwarts Legacy é um RPG de ação imersivo de mundo aberto. Agora você pode assumir o controle da ação e estar no centro de sua própria aventura no mundo bruxo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/920210/header.jpg?t=1676414649" class="d-block w-100" alt="LEGO® Star Wars™: The Skywalker Saga">
+                                        <h5 class="text-coloredfw-bold mt-2">LEGO® Star Wars™: The Skywalker Saga</h5>
+                                        <p>
+                                            Play through all nine Skywalker saga films in a game unlike any other. With over 300 playable characters, over 100 vehicles, and 23 planets to explore, a galaxy far, far away has never been more fun! *Includes classic Obi-Wan Kenobi playable character
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1496790/header.jpg?t=1669857306" class="d-block w-100" alt="Gotham Knight">
+                                        <h5 class="text-coloredfw-bold mt-2">Gotham Knight</h5>
+                                        <p>
+                                            Batman is dead. It is now up to the Batman Family - Batgirl, Nightwing, Red Hood, and Robin - to protect Gotham City.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/976310/header.jpg?t=1691103008" class="d-block w-100" alt="Mortal Kombat 11">
+                                        <h5 class="text-coloredfw-bold mt-2">Mortal Kombat 11</h5>
+                                        <p>
+                                            Mortal Kombat is back and better than ever in the next evolution of the iconic franchise.
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu email</label>
+                                <input type="email" id="email" class="form-control" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control" name="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Seu mensagem</label>
+                                <textarea id="mensagem" class="form-control" name="mensagem"></textarea>
+                            </div>
+                            <button class="btn fw-bold" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 mx-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereços
+                            </h3>
+                            <p>
+                                Av. Rebouças, 3970 - Pinheiros, São Paulo - SP, 05402-600
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./src/jquery.mask.min.js"></script>
+    <script src="./src/jquery.validate.min.js"></script>
+    <script src="./src/messages_pt_BR.min.js"></script>
+    <script src="./src/main.js"></script>
+</body>
+</html>

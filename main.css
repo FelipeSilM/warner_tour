@@ -1,0 +1,85 @@
+:root{
+    --white: hsl(250, 100%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --medium-blue: hsl(218, 78%, 58%);
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    color: var(--white);
+}
+
+.navbar,
+#evento,
+#o-que-esperar{
+    background-color: var(--black);
+}
+
+#cabecalho .nav .nav-link.active{
+    border: 1px solid var(--white);
+    background-color: transparent;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover
+.nav-atracoes .nav-link.active:hover{
+    color: var(--white);
+}
+
+
+.navbar-toggler{
+    background-color: var(--white);
+}
+
+.section-title{
+    font-family: 'Fraunces', serif;
+}
+
+
+#sobre-a-warner,
+#sobre{
+    background-color: var(--black);
+}
+
+
+.carousel-caption{
+    left: 0%;
+    right: 0%;
+    bottom: -5%;
+    padding: 15px;
+    padding-bottom: 150px;
+    background-image: linear-gradient(transparent, rgb(0, 0, 0));
+}
+
+#sobre-a-warner .carousel-caption button{
+    font-size: 30px;
+    padding: 10px 20px;
+    border-color: var(--white);
+    color: var(--white);
+}
+
+
+.text-colored{
+    color: var(--medium-blue);
+}
+
+.nav-atracoes .nav-link.active{
+    background-color: var(--medium-blue);
+    color: var(--white);
+}
+
+#sobre button{
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
